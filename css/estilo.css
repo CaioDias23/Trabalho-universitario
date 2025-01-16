@@ -1,0 +1,535 @@
+/* Estrutura do site
+*/
+* {
+	margin:0;
+	padding:0;
+}
+
+.background-principal{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #fff url(../imagens/fundo.png) repeat-x;
+}
+
+
+.background-contato {
+
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #294c71 url(../imagens/fundo.png) repeat-x;
+
+
+}
+
+
+
+#container {
+	width: 750px;
+	margin: 0 auto;
+	
+}
+
+#topo {
+	height: 150px;
+	background: url(../imagens/detalhe-topo.png) no-repeat right top;
+	padding-top: 25px;
+	/*border: 1px solid red;*/
+	
+}
+
+.logo {
+	width: 152px;
+	height: 66px;
+	background: url(../imagens/logo.png) no-repeat center;
+	text-indent: -3000px;
+	
+}
+
+/* Barra de navegação
+*/
+a:link, a:visited {
+	color: #b10333;
+	padding: 2px;
+	
+}
+
+a:hover {
+	color: #e50040;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#topo ul {
+	margin-top: 30px;
+	background: #b10333;
+	float: left;
+	
+}
+
+#topo ul li {
+	float: left;
+}
+
+#topo ul a {
+	font-size: 1em;
+	display: block;
+	padding: 0.5em 3.5em;
+	line-height: 2.1em;
+	text-decoration: none;
+	color: #fff;
+	background: url(../imagens/divisor.png) no-repeat left center;
+}
+
+#topo ul .primeiro a {
+	background: none;
+}
+
+#topo ul a:hover {
+	color: #000000;
+}
+
+body.home #navegacao a#home,
+body.Segurança #navegacao a#Segurança, 
+body.Mudança #navegacao a#Mudança,
+body.Contato #navegacao a#Contato 
+{
+	color: #fff;
+	background: #de003e;
+	cursor: text;
+	
+	
+}
+
+/* Configura layout de três colunas */
+#conteudo {
+	margin-top: 60px;
+	background: #f5f5f5;
+	
+}
+
+#lateral {
+	width: 180px;
+	float: left;
+  position: relative;
+  right:190px;
+	margin: 0 0 20px -750px;
+}
+
+#primario {
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 195px ;
+}
+
+#duas-colunas #primario {
+	width: 555px;
+}
+
+#uma-coluna #primario {
+	width: 750px;
+	margin: 0 0 20px 0;
+	
+
+}
+
+#secundario {
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 15px;
+}
+
+/*Caixa*/
+.caixa {
+	margin: 10px 0;
+	padding: 5px;
+	background: #f3f3f3 url(../imagens/fundo-caixa.png);
+}
+
+h2 {
+	font-size: 1em;
+	background: #294c71;
+	color: #fff;
+	padding: 5px;
+}
+
+.caixa-conteudo {
+	background: #fff;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+/* Formatar menus laterais
+*/
+#lateral ul a {
+	font-size: 0.9em;
+	padding: 3px;
+	display: block;
+	line-height: 30px;
+	color: #dbb0b0;
+	text-decoration: none;
+	border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover {
+	background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+	padding-left: 20px;
+	color: #a1a1a1;
+}
+
+/* Formatando formulários
+*/
+label {
+	display: block; 
+	cursor: pointer;
+}
+
+input {
+	padding: 5px;
+	width: 125px;
+	font-size: 0.9em;
+	background-color: #fff;
+}
+
+input.submit {
+	width: 80px;
+	color: #fff;
+	background-color: #b10333;
+	border: 2px solid #870529;
+}
+
+/*Formatando imagens*/
+img.imagem-principal {
+	width: 98%;
+	border: 3px solid #dfdfdf;
+}
+
+/* Formatando cabeçalhos */
+h3 {
+	text-transform: uppercase;
+	display: inline;
+	font-size: 0.8em;
+	padding: 3px;
+}
+
+.destaque h3 {
+	background: #b10333;
+	color: #fff;
+}
+
+.entrevista h3 {
+	background: #de003e;
+}
+
+/*Formatando lista de notícias*/
+#lista-noticias li {
+	padding: 2px;
+	border-bottom: 1px solid #ccc; 
+	height: 62px;
+}
+
+#lista-noticias li a img {
+	float: left;
+	margin: 5px;
+}
+
+#lista-noticias li a {
+	text-decoration: none;
+}
+
+#lista-noticias li a h3 {
+	font-size: 0.8em;
+	padding: 0;
+	color: #3e7ab9;
+}
+
+#lista-noticias li a p {
+	font-size: 0.7em;
+	color: #000;
+}
+
+#lista-noticias li:hover {
+	background: #eee;
+	cursor: pointer;
+}
+
+
+/*Rodape*/
+#container-rodape {
+	background: #294c71;
+	padding: 20px;
+}
+
+#rodape {
+	width: 750px;
+	margin: 0 auto;
+	color: #fff;
+}
+
+p {
+
+font-size: 20px;
+text-align: justify;
+
+}
+
+
+/* fim do conteudo original /*
+
+/* Estilo para o botão do dropdown */
+.dropbtn {
+	background-color: #b10333;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	
+  }
+  
+  /* Estilo para o contêiner do dropdown */
+  .dropdown {
+	position: relative;
+	display: inline-block;
+  }
+  
+  /* Estilo para o conteúdo do dropdown (lista de opções) */
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #941111;
+	min-width: 370px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  /* Estilo para os links dentro do dropdown */
+  .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  /* Mudar a cor do link quando passar o mouse */
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  /* Mostrar o dropdown quando o botão é clicado */
+  .show {display: block;}
+  
+/* começo do contato */
+
+.wrapper {
+  --input-focus: #2d8cf0;
+  --font-color: #323232;
+  --font-color-sub: #666;
+  --bg-color: #fff;
+  --bg-color-alt: #666;
+  --main-color: #323232;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+}
+/* switch card */
+
+.altura {
+
+position: relative;
+top: 300px;
+left: 320px;
+
+}
+
+.switch {
+  transform: translateY(-200px);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 50px;
+  height: 20px;
+ 
+}
+
+.card-side::before {
+  position: absolute;
+  content: 'Log in';
+  left: -70px;
+  top: 0;
+  width: 100px;
+  text-decoration: underline;
+  color: var(--font-color);
+  font-weight: 600;
+  color: white;
+}
+
+.card-side::after {
+  position: absolute;
+  content: 'Sign up';
+  left: 70px;
+  top: 0;
+  width: 100px;
+  text-decoration: none;
+  color: var(--font-color);
+  font-weight: 600;
+  color: white;
+}
+
+.toggle {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 2px solid var(--main-color);
+  box-shadow: 4px 4px var(--main-color);
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--bg-colorcolor);
+  transition: 0.3s;
+}
+
+.slider:before {
+  box-sizing: border-box;
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  border: 2px solid var(--main-color);
+  border-radius: 5px;
+  left: -2px;
+  bottom: 2px;
+  background-color: var(--bg-color);
+  box-shadow: 0 3px 0 var(--main-color);
+  transition: 0.3s;
+}
+
+.toggle:checked + .slider {
+  background-color: var(--input-focus);
+}
+
+.toggle:checked + .slider:before {
+  transform: translateX(30px);
+}
+
+.toggle:checked ~ .card-side:before {
+  text-decoration: none;
+}
+
+.toggle:checked ~ .card-side:after {
+  text-decoration: underline;
+}
+
+/* card */ 
+
+.flip-card__inner {
+  width: 300px;
+  height: 350px;
+  position: relative;
+  background-color: transparent;
+  perspective: 1000px;
+    /* width: 100%;
+    height: 100%; */
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.toggle:checked ~ .flip-card__inner {
+  transform: rotateY(180deg);
+}
+
+.toggle:checked ~ .flip-card__front {
+  box-shadow: none;
+}
+
+.flip-card__front, .flip-card__back {
+  padding: 20px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background: lightgrey;
+  gap: 20px;
+  border-radius: 5px;
+  border: 2px solid var(--main-color);
+  box-shadow: 4px 4px var(--main-color);
+}
+
+.flip-card__back {
+  width: 100%;
+  transform: rotateY(180deg);
+}
+
+.flip-card__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.title {
+  margin: 20px 0 20px 0;
+  font-size: 25px;
+  font-weight: 900;
+  text-align: center;
+  color: var(--main-color);
+}
+
+.flip-card__input {
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid var(--main-color);
+  background-color: var(--bg-color);
+  box-shadow: 4px 4px var(--main-color);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--font-color);
+  padding: 5px 10px;
+  outline: none;
+}
+
+.flip-card__input::placeholder {
+  color: var(--font-color-sub);
+  opacity: 0.8;
+}
+
+.flip-card__input:focus {
+  border: 2px solid var(--input-focus);
+}
+
+.flip-card__btn:active, .button-confirm:active {
+  box-shadow: 0px 0px var(--main-color);
+  transform: translate(3px, 3px);
+}
+
+.flip-card__btn {
+  margin: 20px 0 20px 0;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid var(--main-color);
+  background-color: var(--bg-color);
+  box-shadow: 4px 4px var(--main-color);
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--font-color);
+  cursor: pointer;
+} 
+
+
+

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Notícias cidade - Seu site de notícias</title>
+		<meta charset="utf-8">
+
+		<!-- Estilo customizado -->
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+	</head>
+
+	<body id="uma-coluna" class="home">
+    	<div class="background-principal">
+		<!-- Início container -->
+		<div id="container">
+
+			<!-- Início topo -->
+			<div id="topo">
+				<h1 class="logo">Notícias cidade</h1>
+				<ul id="navegacao">
+					<li class="primeiro">
+						<a id="Home" href="Home.html">Home</a>
+					</li>
+					<li class="dropdown">
+						<button onclick="toggleDropdown('dropdown1')" class="dropbtn">Segurança</button>
+						<div id="dropdown1" class="dropdown-content">
+						  <a href="Como Combater.html">Como Combater a Criminalidade?</a>
+						  <a href="Preconceito.html">Preconceito:</a>
+						  <a href="Violencia.html">Violência Contra a Mulher:</a>
+						</div>
+					  <li class="dropdown">
+						<button onclick="toggleDropdown('dropdown2')" class="dropbtn">Meio Ambiente</button>
+						<div id="dropdown2" class="dropdown-content">
+						  <a href="Sustentabilidade.html">Sustentabilidade Urbana:</a>
+						  <a href="Educação.html">Educação Ambiental:</a>
+						  <a href="Conservação.html">Conservação da Água e Proteção dos Recursos Hídricos:</a>
+						</div>
+					<li>
+						<a id="economia" href="Contato.html">Contato</a>
+					</li>
+				</ul>
+				
+			</div><!-- fim /topo -->
+
+			<!-- Início conteudo -->
+			<div id="conteudo">
+
+				<div id="primario">
+					
+					<div class="caixa destaque">
+						<h2>SEGURANÇA</h2>
+						<div class="caixa-conteudo">
+
+							<h3>VIOLÊNCIA</h3>
+							<img class="imagem-principal" src="imagens/GBV-woman-pt-1140-1140x450.png" width="100%">
+							<p><br>
+								No âmbito doméstico, a violência contra a mulher é uma triste realidade. Agredidas por parceiros íntimos ou familiares, as mulheres sofrem em silêncio, muitas vezes por medo de represálias ou por não terem para onde ir. A violência psicológica, como humilhações e ameaças, pode ser tão danosa quanto a violência física, deixando cicatrizes emocionais profundas.
+							</p>
+							<br>
+							<p>
+								Além do ambiente doméstico, a violência contra as mulheres se manifesta em espaços públicos. No ambiente de trabalho, por exemplo, a violência contra a mulher pode se manifestar de várias formas, desde discriminação salarial até assédio moral e sexual. Essas formas de violência são igualmente prejudiciais e contribuem para a perpetuação do ciclo de opressão.
+							</p>
+							<br>
+							<p>
+								Para combater efetivamente a violência contra as mulheres, é necessário um esforço conjunto da sociedade, do governo e das instituições. É fundamental promover a igualdade de gênero em todos os aspectos da vida e garantir que as mulheres tenham acesso a recursos e apoio para romperem o ciclo de violência. Todos nós temos o dever de nos opor à violência contra as mulheres e trabalhar ativamente para construir um mundo onde todas as pessoas possam viver livres do medo e da opressão. Denuncie já!
+							</p>
+							
+							
+
+						</div>
+					</div>
+
+				</div>
+				<div id="lateral">
+				
+					<div class="caixa">
+						<h2>Denuncie</h2>
+						<div class="caixa-conteudo">
+	
+							<form>
+								<div>
+									<label for="email">Faça sua Denucia:</label>
+									<input type="text" name="email" id="email" placeholder="Denuncie">
+								</div>
+								<div>
+									<input class="submit" type="submit" value="Enviar" >
+								</div>
+							</form>
+	
+						</div>
+					</div>
+	
+				</div>	
+			</div><!-- fim /conteudo -->
+
+		</div><!-- fim /container -->
+
+		<div id="container-rodape" style="clear: both;">
+			<div id="rodape">
+				&copy; Copyright 2000-2018 Notícias cidade
+			</div>
+		</div>
+    </div>
+	</body>
+	<script src="scripts.js"></script>
+
+</html>

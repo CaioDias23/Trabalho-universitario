@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Notícias cidade - Seu site de notícias</title>
+		<meta charset="utf-8">
+
+		<!-- Estilo customizado -->
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+	</head>
+
+	<body id="uma-coluna" class="home">
+		<div class="background-principal">
+		<!-- Início container -->
+		<div id="container">
+
+			<!-- Início topo -->
+			<div id="topo">
+				<h1 class="logo">Notícias cidade</h1>
+				<ul id="navegacao">
+					<li class="primeiro">
+						<a id="Home" href="Home.html">Home</a>
+					</li>
+					<li class="dropdown">
+						<button onclick="toggleDropdown('dropdown1')" class="dropbtn">Segurança</button>
+						<div id="dropdown1" class="dropdown-content">
+						  <a href="Como Combater.html">Como Combater a Criminalidade?</a>
+						  <a href="Preconceito.html">Preconceito:</a>
+						  <a href="Violencia.html">Violência Contra a Mulher:</a>
+						</div>
+					  <li class="dropdown">
+						<button onclick="toggleDropdown('dropdown2')" class="dropbtn">Meio Ambiente</button>
+						<div id="dropdown2" class="dropdown-content">
+						  <a href="Sustentabilidade.html">Sustentabilidade Urbana:</a>
+						  <a href="Educação.html">Educação Ambiental:</a>
+						  <a href="Conservação.html">Conservação da Água e Proteção dos Recursos Hídricos:</a>
+						</div>
+					<li>
+						<a id="economia" href="Contato.html">Contato</a>
+					</li>
+				</ul>
+				
+			</div><!-- fim /topo -->
+
+			<!-- Início conteudo -->
+			<div id="conteudo">
+
+				<div id="primario">
+					
+					<div class="caixa destaque">
+						<h2>SEGURANÇA</h2>
+						<div class="caixa-conteudo">
+
+							<h3>PRECONCEITO</h3>
+							<img class="imagem-principal" src="imagens/preconceito-og.webp" width="100%">
+							<p><br>
+								Atualmente, um pensamento retrogrado e antiquado ainda é vigente em algumas pessoas. O Racismo e a Homofobia, infelizmente, permeiam na sociedade e atingem milhões de pessoas, e muitas vezes esse preconceito é acompanhado de uma agressão, seja ela verbal, moral ou física. Contudo, compromete a segurança dessas pessoas.
+							</p>
+							<br>
+							<p>
+								Por isso, é mais que necessário a eliminação desse preconceito para garantir a segurança de todos em uma comunidade. Se você que está lendo sofreu algum tipo de descriminação pela sua raça, cor de pele ou sexualidade. Denuncie já!
+
+								
+							</p>
+
+						</div>
+					</div>
+
+				</div>
+
+			<div id="lateral">
+				
+				<div class="caixa">
+					<h2>Denuncie</h2>
+					<div class="caixa-conteudo">
+
+						<form>
+							<div>
+								<label for="email">Faça sua Denucia:</label>
+								<input type="text" name="email" id="email" placeholder="Denuncie">
+							</div>
+							<div>
+								<input class="submit" type="submit" value="Enviar" >
+							</div>
+						</form>
+
+					</div>
+				</div>
+
+			</div>	
+			</div><!-- fim /conteudo -->
+
+		</div><!-- fim /container -->
+
+		<div id="container-rodape" style="clear: both;">
+			<div id="rodape">
+				&copy; Copyright 2000-2018 Notícias cidade
+			</div>
+		</div>
+    </div>
+
+	</body>
+	<script src="scripts.js"></script>
+
+</html>

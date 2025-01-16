@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Notícias cidade - Seu site de notícias</title>
+		<meta charset="utf-8">
+
+		<!-- Estilo customizado -->
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+	</head>
+
+	<body class="background-contato" class="home">
+
+		
+
+		<!-- Início container -->
+	<div id="container">
+
+			<!-- Início topo -->
+			<div id="topo">
+				<h1 class="logo">Notícias cidade</h1>
+				<ul id="navegacao">
+					<li class="primeiro">
+						<a id="Home" href="Home.html">Home</a>
+					</li>
+					<li class="dropdown">
+						<button onclick="toggleDropdown('dropdown1')" class="dropbtn">Segurança</button>
+						<div id="dropdown1" class="dropdown-content">
+						  <a href="Como Combater.html">Como Combater a Criminalidade?</a>
+						  <a href="Preconceito.html">Preconceito:</a>
+						  <a href="Violencia.html">Violência Contra a Mulher:</a>
+						</div>
+					  <li class="dropdown">
+						<button onclick="toggleDropdown('dropdown2')" class="dropbtn">Meio Ambiente</button>
+						<div id="dropdown2" class="dropdown-content">
+						  <a href="Sustentabilidade.html">Sustentabilidade Urbana:</a>
+						  <a href="Educação.html">Educação Ambiental:</a>
+						  <a href="Conservação.html">Conservação da Água e Proteção dos Recursos Hídricos:</a>
+						</div>
+					<li>
+						<a id="economia" href="Contato.html">Contato</a>
+					</li>
+				</ul>
+			</div><!-- fim /topo -->
+
+			<!-- Início conteudo -->
+			
+			<div class="wrapper">
+				<div class="altura">
+				<div class="card-switch">
+					<label class="switch">
+					   <input type="checkbox" class="toggle">
+					   <span class="slider"></span>
+					   <span class="card-side"></span>
+					   <div class="flip-card__inner">
+						  <div class="flip-card__front">
+							 <div class="title">Login</div>
+							 <form class="flip-card__form" action="">
+								<input class="flip-card__input" name="email" placeholder="Email" type="email">
+								<input class="flip-card__input" name="password" placeholder="Senha" type="password">
+								<button class="flip-card__btn">Entrar</button>
+							 </form>
+						  </div>
+						  <div class="flip-card__back">
+							 <div class="title">Sign up</div>
+							 <form class="flip-card__form" action="">
+								<input class="flip-card__input" placeholder="Nome" type="name">
+								<input class="flip-card__input" name="email" placeholder="Email" type="email">
+								<input class="flip-card__input" name="password" placeholder="Senha" type="password">
+								<button class="flip-card__btn">Confirmar</button>
+							 </form>
+						  </div>
+					   </div>
+					</label>
+				</div>   
+		   </div>
+		</div><!-- fim /container -->
+    </div>    
+ </div>
+ <script src="scripts.js"></script>
+
+	</body>
+
+</html>
